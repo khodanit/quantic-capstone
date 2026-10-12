@@ -1,0 +1,7 @@
+flask
+python-dotenv
+pytest
+
+# LLM provider: uncomment ONE (decided in S1-09)
+# anthropic
+# openai

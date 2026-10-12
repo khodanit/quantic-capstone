@@ -1,0 +1,29 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Test and tool caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated data (rebuilt from seed scripts)
+data/*
+!data/.gitkeep
+*.db
+*.sqlite3
+
+# Flask
+instance/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
